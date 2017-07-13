@@ -7,7 +7,7 @@ gpgkey=http://yum.boundlessps.com/RPM-GPG-KEY-yum.boundlessps.com
 
 [pgdg95]
 name=PostgreSQL 9.5 $releasever - $basearch
-baseurl=https://download.postgresql.org/pub/repos/yum/9.5/redhat/rhel-$releasever-$basearch
+baseurl=https://download.postgresql.org/pub/repos/yum/9.5/redhat/rhel-7.3-x86_64/postgresql95-contrib-9.5.7-1PGDG.rhel7.x86_64.rpm
 enabled=1
 gpgcheck=1
 gpgkey=http://yum.boundlessps.com/RPM-GPG-KEY-PGDG-95
@@ -21,6 +21,6 @@ gpgkey=http://packages.elastic.co/GPG-KEY-elasticsearch
 
 [rabbitmq-server]
 name=rabbitmq_rabbitmq-server
-baseurl=https://packagecloud.io/rabbitmq/rabbitmq-server/el/$releasever/$basearch
+baseurl=https://packagecloud.io/rabbitmq/rabbitmq-server/packages/el/6/rabbitmq-server-3.6.10-1.el6.noarch.rpm
 enabled=1
 gpgcheck=0
